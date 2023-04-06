@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
     "start": "next start"
   },
