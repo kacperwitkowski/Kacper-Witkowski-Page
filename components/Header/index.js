@@ -16,7 +16,7 @@ const Header = () => {
           <a
             className={styles.contactLink}
             download="KacperWitkowskiResume"
-            href="/Ecuador.pdf"
+            href="/KacperWitkowskiCV.pdf"
           >
             <HiOutlineDocumentDownload style={{fontSize: "20px"}}/> Resume
           </a>
