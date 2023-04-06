@@ -6,7 +6,7 @@ App that allows users to create a route between two cities or places and calcula
 tech: 'js, React, express, Redux, mongodb, restapi, Sass'
 value: '3'
 website: 'https://mapu.cyclic.app/'
-featuredImg: '/mapU/preview.png'
+featuredImg: '/mapU/preview.jpeg'
 ---
 
 App that allows users to create a route between two cities or places and calculate average fuel consumption on this route with user combustion. Routes can be saved in the database with all the details (which come from specially made API for this app) about the road and places from which it was created. MapU also allows users to play in the geography quiz, save on the svg map all the countries they visited, convert kilometers on miles and see price of the route in seven currencies, browse their saved routes and even more!
