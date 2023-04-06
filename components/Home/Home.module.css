@@ -1,0 +1,8 @@
+.home {
+  background-color: rgba(148, 151, 158, 0.1);
+  display: block;
+}
+
+.home__content {
+  box-sizing: border-box;
+}

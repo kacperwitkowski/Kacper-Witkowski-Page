@@ -1,0 +1,55 @@
+.container,
+.containerNoBorder {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  box-sizing: border-box;
+  width: 1200px;
+  max-width: 100%;
+  border-top: 1px solid rgba(62, 62, 225, 0.12);
+  padding: 0 20px;
+  margin-top: 80px;
+  margin: auto;
+}
+
+.containerNoBorder {
+  border-top: 0;
+}
+
+.logoLink img {
+  width: 60px;
+}
+
+.nav {
+  margin-left: auto;
+  margin-top: 6px;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a + a {
+  margin-left: 14px;
+}
+
+.nav li a {
+  margin-left: 14px;
+}
+
+.nav li a img {
+  width: 24px;
+  opacity: 0.4;
+  transition: opacity ease-in 0.2s;
+}
+
+.nav li a:hover img,
+.nav li a:active img {
+  opacity: 0.8;
+}
+
+.logo {
+  cursor: pointer;
+}

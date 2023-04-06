@@ -1,0 +1,158 @@
+.tech {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ background-image: url('../../public/images/wave.png');
+ background-size: cover;
+ margin-top: 200px;
+}
+
+.tech__intro__line {
+ display: flex;
+ -webkit-box-align: center;
+ align-items: center;
+ -webkit-box-pack: justify;
+ margin: 0px 16px;
+}
+
+.tech__intro__line h2 {
+ font-size: 40px;
+}
+
+.tech__intro__line__div {
+ display: block;
+ background: black;
+ height: 2px;
+ width: 50%;
+ margin-left: -7px;
+}
+
+
+.tech__container {
+ width: 90%;
+ display: flex;
+ flex-direction: row-reverse;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 200px;
+}
+
+.tech__container img {
+ width: 340px;
+ height: 340px;
+}
+
+.tech__words {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ width: 50%;
+ height: 100%;
+}
+
+.tech__words__content {
+ border: 1px solid black;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-template-rows: auto;
+ grid-gap: 30px;
+ place-items: center;
+ border-radius: 10px;
+ background-color: transparent;
+ color: black;
+ padding: 30px;
+ font-size: 24px;
+}
+
+.tech__words__content img {
+ width: 40px;
+ height: 40px;
+ fill: "none";
+ margin-right: 10px;
+}
+
+.tech__words__content div {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+@media (max-width: 1575px) {
+ .tech__words {
+  width: 70%;
+  margin-right: 20px;
+ }
+}
+
+@media (max-width: 1130px) {
+ .tech__container {
+  width: 100%;
+ }
+
+ .tech__words__content {
+  padding: 20px;
+  font-size: 20px;
+  grid-gap: 20px;
+ }
+
+ .tech__words__content div {
+  flex-direction: column;
+ }
+
+ .tech__words__content img {
+  margin-right: 0px;
+ }
+}
+
+@media (max-width: 800px) {
+ .tech {
+  margin-top: 50px;
+ }
+
+ .tech__cartoon {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+ }
+
+ .tech__container {
+  flex-direction: column-reverse;
+  margin-bottom: 100px;
+ }
+
+ .tech__words {
+  width: 90%;
+  margin: 20px;
+  margin-bottom: 70px;
+ }
+
+}
+
+@media (max-width: 500px) {
+
+ .tech__container {
+  flex-direction: column-reverse;
+ }
+
+ .tech__words {
+  width: 90%;
+  margin: 20px;
+  margin-bottom: 70px;
+ }
+ .tech__words__content {
+grid-template-columns: repeat(3,1fr);
+padding: 10px;
+grid-gap: 10px;
+ }
+
+}
+@media (max-width: 370px) {
+.tech__words__content {
+grid-template-columns: repeat(2,1fr);
+ }
+
+}

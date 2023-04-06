@@ -1,0 +1,141 @@
+.skills {
+  margin: 0px auto 40px;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 1024px;
+  padding: 30px;
+}
+
+.skills img {
+  object-fit: contain;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+}
+
+.qualification {
+  padding: 0px 40px 40px 40px;
+  text-align: center;
+}
+
+.qualification__tabs {
+  display: none;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.qualification__button {
+  cursor: pointer;
+  color: firebrick;
+  font-size: 24px;
+}
+
+.qualification__button:hover {
+  color: green;
+}
+
+.qualification__icon {
+  font-size: 1.8rem;
+  margin-right: 8px;
+}
+
+.qualification__data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+.qualification__data h3 {
+  margin: 0px;
+  text-align: center;
+}
+
+.qualification__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qualification__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.qualification__subtitle {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.qualification__calendar {
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+.qualification__calendar__icon {
+  margin-right: 5px;
+}
+
+.qualification__rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: cadetblue;
+  border-radius: 50%;
+}
+
+.qualification__data__wrapper {
+  margin-top: 30px;
+}
+
+.qualification__line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: cadetblue;
+  transform: translate(6px, -7px);
+}
+
+.skills__image {
+  z-index: 1;
+  height: fit-content;
+  
+}
+
+.skills__particles {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+@media (max-width: 900px) {
+  .skills {
+    flex-direction: column;
+  }
+
+  .skills__image {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .qualification__data {
+    column-gap: 0.2rem;
+  }
+
+  .qualification {
+    padding: 0px 10px 10px 10px;
+  }
+
+  .skills img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .skills {
+    padding: 10px;
+  }
+}

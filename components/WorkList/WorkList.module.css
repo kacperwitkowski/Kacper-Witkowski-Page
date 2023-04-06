@@ -1,0 +1,45 @@
+.workContainer {
+  margin-bottom: 100px;
+}
+
+.workList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 0;
+  color: var(--black);
+}
+
+.githubLinkContainer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+ .githubLink {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 880px) {
+  .workContainer {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .workContainer {
+    padding: 0 20px;
+  }
+}
+
+
+
