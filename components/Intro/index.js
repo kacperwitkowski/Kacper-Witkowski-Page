@@ -33,7 +33,7 @@ const Intro = () => {
         <div className={styles.longOne}>
           <p>
             I’m an young, ambitious front-end developer with 3 years of learning
-            and 1 year of working experience. I’m experienced in technologies
+            and 2 years of working experience. I’m experienced in technologies
             such as
             <RoughNotation
               animationDelay={900}
