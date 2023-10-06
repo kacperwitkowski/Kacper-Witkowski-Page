@@ -12,20 +12,9 @@ const Header = () => {
             <img className={styles.logo} src={logo} width="150" alt="kw logo" />
           </a>
         </Link>
-        <nav className={styles.nav}>
-          <a
-            className={styles.contactLink}
-            download="KacperWitkowskiResume"
-            href="/KacperWitkowskiCV.pdf"
-          >
-            <HiOutlineDocumentDownload style={{fontSize: "20px"}}/> Resume
-          </a>
-        </nav>
+        <nav className={styles.nav}></nav>
       </div>
     </header>
-    
-
-
   );
 };
 
